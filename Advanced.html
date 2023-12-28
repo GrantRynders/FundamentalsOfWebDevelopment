@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Advanced tutorials for Kroger cashiering">
+  	<meta name="keywords" content="Tutorial, Kroger, Cashiering">
+  	<meta name="author" content="Grant Rynders">
+	<link rel="icon" type="image/x-icon" href="OtherImages/favicon.ico">
+	<title>
+		Kroger Cashiering for Humans
+	</title>
+	<link rel="stylesheet" media="screen and (min-width: 1501px)" href="Full.css">
+	<link rel="stylesheet" media="screen and (min-width: 801px) and (max-width: 1500px)" href="Mid.css">
+	<link rel="stylesheet" media="screen and (max-width: 800px)" href="Mobile.css">
+</head>
+<body>
+	<div id="StickyTopBit">
+		<header>
+			<h3>Kroger Cashiering for Humans</h3>
+			<div class="mobileNav">
+				<a id="navIcon" href="#.html">|||</a>
+				<div class="navContent">
+					<div class="navContentChild">
+						<ul> 
+							<li><a href="index.html">Home</a></li>
+							<li ><a href="Basics.html">Basics</a></li>
+							<li class="active"><a href="Advanced.html">Advanced</a></li>
+							<li><a href="FAQ.html">FAQ</a></li>
+							<li><a href="Resources.html">Resources</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<div class="desktopNav">	
+				<ul>
+					<li><a class="TopNav" href="index.html">Home</a></li>
+					<li><a class="TopNav" href="Basics.html">Basics</a></li>
+					<li class="active"><a class="TopNav" href="Advanced.html">Advanced</a></li>
+					<li><a class="TopNav" href="FAQ.html">FAQ</a></li>
+					<li><a class="TopNav" href="Resources.html">Resources</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="desktop">
+			<div class="SideNav">
+				<ul>
+					<li><a class="SideA"><b>INDEX</b></a></li>
+					<li><a class="SideA" href="#Troubleshooting"><b>Troubleshooting Issues</b></a></li>
+					<li><a class="SideA" href="#PaymentIssues"><b>Payment Issues</b></a></li>
+					<li><a class="SideA" href="#CreditVsDebit">- Credit vs Debit</a></li>
+					<li><a class="SideA" href="#ChipMalfunction">- Chip Malfunction</a></li>
+					<li><a class="SideA" href="#CardCanceled">- Canceled Payment</a></li>
+					<li><a class="SideA" href="#CardDeclined">- Declined Payment</a></li>
+					<li><a class="SideA" href="#Instacart">- Instacart Woes</a></li>
+					<li><a class="SideA" href="#CheckPinPad"><b>Hardware Issues</b></a></li>
+					<li><a class="SideA" href="#CheckPinPad">- Check Pin-Pad</a></li>
+					<li><a class="SideA" href="#RegisterFreeze">- Register Freeze</a></li>
+					<li><a class="SideA" href="#Scale">- The Scale</a></li>
+					<li><a class="SideA" href="#KrogerApp"><b>The Kroger App</b></a></li>
+					<li><a class="SideA" href="#AppHome">- The Home Page</a></li>
+					<li><a class="SideA" href="#AppHomeSidebar">- The Home Page: Sidebar</a></li>
+					<li><a class="SideA" href="#Savings">- The Savings Page</a></li>
+					<li><a class="SideA" href="#Coupons">- Viewing Coupons</a></li>
+					<li><a class="SideA" href="#TroubleshootingDigitalCoupons">- Troubleshooting Digital Coupons</a></li>
+					<li><a class="SideA" href="#"></a></li>
+					<li><a class="SideA" href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<main class="TutorialMain">
+		<div class="Chapter">
+		<h1>Part 2</h1>
+		<h2>Advanced Topics</h2>
+		</div>
+		<div class="SectionShell">
+			<div class="Section" id="Troubleshooting">
+				<h2>Troubleshooting</h2>
+				<img src="TutorialImages/MainPage.jpg" alt="Image of Main Register Screen">
+				<p class="SectionLowP">
+					As a cashier you are not always going to have backup for solving problems. Sometimes your managers and coworkers are going to be busy, or you're going to be working alone. In those cases, you need to be prepared to solve customer problems and technical issues. This part of the guide is going to expect some familiarity with the software and terms so get ready.
+					<br>This will be ordered by my personal ranking of importance.
+				</p>
+			</div>
+			<div class="Section" id="PaymentIssues">
+				<h2>Payment Issues</h2>
+				<img src="TutorialImages/Pinpad2.jpg" alt="Image of the pinpad">
+				<p class="SectionMidP">
+					Unfortunately, many customers are pretty clueless even when it comes to using their own stuff. This especially applies to payment.
+				</p>
+				<h2 id="CreditVsDebit">Credit vs Debit</h2>
+				<p class="SectionMidP">
+					One common confusion is the difference in functionality of credit and debit cards.
+					<br>Both require the EFT payment option. However, most credit cards will not allow for cashback and there are some differences in processing payments.
+					<br>When a customer inserts their card, it will prompt for if they want cashback, if the card is able to provide it. If it does not display this prompt, it simply cannot provide cashback. Furthermore, some credit cards will charge a cashback fee which the customer will be prompted to accept.
+					<br>The final action of payment is different for credit and debit. For most debit cards, a pin must be entered. For most credit cards, the pin is not needed, and the customer can simply hit the green button.
+					<br>If a customer has issues with a card that is supposed to give cashback or that doesn't actually require pin entry, there really isn't anything you can do, so try an alternate method of payment or <a href="Basics.html#Suspend">suspend</a> the transaction so they can talk to their card provider.
+				</p>
+				<h2 id="ChipMalfunction">Chip Malfunction</h2>
+				<p class="SectionMidP">
+					Chip malfunction is by far the most common issue we have, but thankfully one of the easiest to solve.
+					<br>When encountered check:
+					<br><br>- Does the card have a chip?
+					<br>- Is the customer inserting it the right way?
+					<br>- Is the card clean? Try rubbing it with a cloth to get any icky stuff off the card.
+					<br>- Some cards need to be swiped. After three failed chip uses, try to swipe the card. Use an appropriate speed and orientation when swiping.
+					<br>- Does the card have NFC (popularly "Tap") capabilities denoted by a wifi-looking sign on the card? If so try that if the chip persists in not working.
+					<br><br>If all else fails, and you have tried a number of times, try switching registers and using a different pinpad. If even that doesn't work, try an alternative method of payment.
+				</p>
+				<h2 id="CardCanceled">Card Canceled</h2>
+				<p class="SectionMidP">
+					Sometimes the card cancels when the customer takes it out too soon or hits the red button. This can be deceiving for them since it will make the happy beep as if the transaction went through, which in fact it did not. It will prompt on your register screen that the payment was canceled at the pinpad, so it is easy to diagnose.
+				</p>
+				<h2 id="CardDeclined">Card Declined</h2>
+				<p class="SectionMidP">
+					A decline is not to be confused with a chip malfunction or cancel. There are a few different error messages that display when cards decline, but all of them contain "decline" and all of them mean one thing: for whatever reason the card is out of funds. If a card declines there is nothing we can do.
+					<br>Some foodstamp kindof cards will decline if you try to pay for more than they contain, but those typically print something out of the receipt printer to tell you their amount. You can then try the card again using Partial EFT for that amount and it should work.
+				</p>
+				<h2 id="Instacart">Instacart Woes</h2>
+				<p class="SectionLowP">
+					Dealing with Instacart problems can be some of the most difficult since usually mistakes are costly. Lets go over a few:
+					<br><br>- Scanning the barcode/s before you scan anything else is ABSOLUTELY REQUIRED NO EXCEPTIONS. If it is early in the order, void the transaction and restart the order. If the order is almost complete you will have to restart nonetheless.
+					<br>- Make sure you're using the right payment option. Some Instacart orders use an EFT card and some use <a href="OnlinePay">Online Pay</a>.
+					<br>- You ended the order too early or missed an item, what now? Unfortunately, the Instacarter is going to have to contact the company and arrange for another order. Always make sure to check under the cart and confirm with the shopper that the order is completely finished before processing payment.
+					<br>- If the customer is having issues with how Instacart works and shopping for items, first and foremost this is not your forte nor is this your problem. It is up to them to do this themselves. If you can help them figure small stuff out or connect to wifi or other simple things, then do so, but don't do their job for them.
+				</p>
+			</div>
+			<div class="Section">
+				<h2 id="CheckPinPad">The Infamous Check Pin-Pad Error</h2>
+				<img src="TutorialImages/Pinpad2.jpg" alt="Image of the pinpad that notably doesn't have the error.">
+				<p class="SectionMidP">
+					Many times when a customer tries to pay for an order, the pin-pad will freeze and will say "check Pin Pad" on the register. When this happens, you are going to need to <a href="Suspend">suspend</a> the order and have the customer pay for their order at another register.
+					<br>You can keep scanning items like normal and the customer won't get charged twice, but the pin pad will be completely useless. So, how do you fix it?
+					<br>Once you've taken care of all the customers, you can do two things:
+					<br><br>- Turn off the register from the button on the main computer. This will reboot everything connected to the register, including the pin pad.
+					<br>- I generally do not recommend this option. Do not do this without manager consent since we aren't technically meant to know about this. If you press "1" + "5" + "9" on the pinpad, it will open the pinpad's debug menu. Follow the prompts to exit the menu. Sign off the register and wait a bit for the pinpad to reboot, and it should be back to normal.
+				</p>
+				<h2 id="RegisterFreeze">Fixing a Frozen Register</h2>
+				<p class="SectionMidP">
+					Sometimes though, not just the pin-pad breaks: the whole thing does. In this case you might have no way to suspend the transaction. In this case you need to transfer the order from another register and finish it there. Note: you will need someone else to help you with this since if you sign in on a second register, it will void the order and waste all your work.
+					<br> Once the customer has been taken care of, reboot the register.
+				</p>
+				<h2 id="Scale">Working with the Scale</h2>
+				<img src="TutorialImages/BaseScanner.jpg" alt="Image of the register's main scale.">
+				<p class="SectionLowP">
+					The scale is one of the most confusing things to troubleshoot as a cashier since it doesn't always work as intended. To tell if the scale is active, the weight field on the secondary customer display should say 0.00 rather than being blank. Pressing the top left button on the scale is supposed to refresh this, but often it doesn't work. Often the best thing to do if the scale isn't working is to just keep trying and to give it some time.
+				</p>
+			</div>
+			<div class="Section" id="KrogerApp">
+				
+				<h2>The Kroger App</h2>
+				<p class="SectionMidP">
+					As a cashier you need to know how to navigate the Kroger App, since none of the customers know how to. It can be downloaded on Android and iOS but it is also notable that the website can be used for a lot of stuff instead, so if a customer doesn't have a phone, it's not the end of the world.
+				</p>
+				<h2 id="AppHome">The Home Page</h2>
+				<div class="MobileScreenshot">
+					
+					<img src="TutorialImages/AppHome.jpg" alt="Image of the home page of the Kroger App on Android.">
+					<p class="SectionMidP">
+						From the home page of the Kroger App you can conveniently access a lot of subfeatures of the app, as well as recommended coupons and items. At the top is a search bar for items, a barcode icon which can be used to go to item pages or scan digital coupons by scanning barcodes with your phone's camera. Below this are Kroger Pay, prior order information, etc., and even lower are the recommended stuff. At the top of the page too there is a three lined icon that gives us a bunch more options, let's check it out.
+					</p>
+				</div>
+				<h2 id="AppHomeSidebar">The Home Page: Sidebar</h2>
+				<div class="MobileScreenshot">
+					<img src="TutorialImages/AppSideBar.jpg" alt="Image of the home page of the Kroger App on Android with the sidebar extended.">
+					<p class="SectionMidP">
+						On the side-bar, we'll just look at what's useful for cashiers to need to know.
+						<br>- Rewards - Check the user's fuel point balance.
+						<br>- Kroger Pay - As one would imagine: opens Kroger Pay
+						<br>- My Account - Check the attached phone number, reset password, etc.
+						<br>- Plus Card - Scan a plus card barcode
+						<br>- Purchase History - View prior order information
+					</p>
+				</div>
+				<h2 id="Savings">The Savings Page</h2>
+				<div class="MobileScreenshot">
+					<img src="TutorialImages/Savings.jpg" alt="Image of the home page of the Kroger App on Android with the sidebar extended.">
+					<p class="SectionMidP">
+						At the bottom of all the pages there is a useful navigation bar. There are a lot of options.
+						<br>- Home - As we discussed
+						<br>- Weekly Ads - This is useful for finding week exclusive digital deals.
+						<br>- Savings - View all sorts of digiatl coupons
+						<br><br>The middle option is the most useful for helping customers: savings. To access everything hit "view all coupons." 
+					</p>
+				</div>
+				<h2 id="Coupons">Viewing Digital Coupons</h2>
+				<div class="MobileScreenshot">
+					<img src="TutorialImages/Coupons.jpg" alt="Image of the savings/all coupons/all coupons page. We clipped the turkey coupon like reasonable human beings.">
+					<p class="SectionMidP">
+						There are three sections and all are pretty useful.
+						<br>- All Coupons - Gives the user a bunch of recommended digital coupons, useful for quickly finding popular coupons.
+						<br>- Browse - Search for coupons by name
+						<br>- Clipped - View any clipped coupons. This can be incredibly useful in troubleshooting issues with digital coupons. If a coupon is there but isn't coming off an order, maybe the customer hasn't met the requirements. If the coupon isn't there, maybe the customer already used it, or just hasn't clipped it yet.
+					</p>
+				</div>
+				<h2 id="TroubleshootingDigitalCoupons">Troubleshooting Digital Coupons</h2>
+				<div class="MobileScreenshot">
+					<img src="TutorialImages/Coupons.jpg" alt="Image of the savings/view all coupons/all coupons page.">
+					<p class="SectionLowP">
+						So your having issues with digital coupons, here are the main steps to solving any issue the customer might have.
+						<br><br>- Have you totaled the order? Digital coupons don't come off until you total it.
+						<br>- Did you get their Kroger plus card?
+						<br>- Did they use the right Kroger card/alt-id? This can be checked from the personal information section in the Kroger app.
+						<br>- If they have the Kroger app, go to savings, then "view all coupons," and finally to clipped, if it appears as clipped it should come off if they bought the correct product and used the correct Kroger card.
+						<br>- If the coupon doesn't appear in the clipped section, search for it in the "all coupons" section.
+						<br>- If it is not there either, go the bottom of the clipped coupons page and see if it has already been redeemed. Many digital coupons can only be used for <b>one transaction and only five times within that transaction</b>.
+						<br>- If all else fails or the person doesn't have the app, just put it in manually.
+					</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<div class="mobile">
+		<a href="#" class="BottomNav">- Return to the Top -</a>
+	</div>
+	<div class="FootBox">
+		<footer>
+			<p>All content created by Grant Rynders. Not officially endorsed by Kroger Co.</p>
+			Contact me:<br>
+			<a href="mailto:Ryndergb@mail.uc.edu">Ryndergb@mail.uc.edu</a> <br>
+			<span class="desktop">513-708-0054</span>
+			<a class="mobile" href="tel:513-708-0054">513-708-0054</a>
+		</footer>	
+	</div>	
+</body>
+</html>
+<!--https://homepages.uc.edu/~ryndergb/Module8/FinalProjectMilestone3b/Home.html -->
