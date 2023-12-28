@@ -1,0 +1,494 @@
+@charset "utf-8";
+*
+{
+	font-family: "Varela Round", sans-serif;
+	box-sizing: border-box;
+	padding: 0px 0px;
+	margin: 0px 0px;
+	width: 100%;
+	scrollbar-color: #bdbbbb #e3e1e1;
+}
+header
+{
+	background-color: #165ccc;
+}
+header h3
+{
+	color: #FFFFFF;
+	padding: 0.5em;
+	display: inline-block;
+}
+body
+{
+	background-color: #165ccc;
+}
+#StickyTopBit
+{
+    position: sticky;
+    top: 0;
+}
+.mobileNav
+{
+	display: none;
+}
+.active a
+{
+	background-color: #2475f7;
+}
+nav
+{
+	border-width: 1px 0px 3px 0px;
+	border-style: groove;
+	border-color: #165ccc;
+	padding-bottom: 3em;
+    display: block;
+	margin: auto;
+}
+ul
+{
+	list-style-type: none;
+}
+ul li
+{
+    width: 20%;
+	float: left;
+}
+
+.TopNav
+{
+	color: #FFFFFF;
+	background-color: #3e85f7;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 16px;
+}
+.TopNav:hover 
+{
+    background-color: #165ccc;
+    color: #FFFFFF;
+}
+footer
+{
+	float:none;
+	display: block;
+	background-color: #86b3fc;
+	text-align: center;
+	color: #FFFFFF;
+}
+.FootBox footer
+{
+	padding: 1em 0em 1em 20%;
+}
+footer a
+{
+	text-decoration: none;
+}
+.FootBox
+{
+	display: flex;
+}
+.mobile
+{
+	display: none;
+}
+.desktop
+{
+	display: inline;
+}
+.SideNav
+{
+	
+	max-height: 100vh;
+	width: 20%;
+	display: flex;
+	float: left;
+	margin: 0em 0em 0em 0em;
+	overflow-y: scroll;
+}
+.SideNav a
+{
+	background-color: #d7e7fc;
+	text-decoration: none;
+	padding: 15px 0px 15px 1em;
+	color: #000000;
+	display: inline-block; 
+}
+.SideNav ul li
+{
+	width: 100%;
+	display: block;
+	
+}
+.Chapter
+{
+	color: #000000;
+	background-color: #a3c6ff;
+	text-align: center;
+	padding: 1em 0em 1em 0em;
+}
+.SectionShell
+{
+	padding: 1em 15% 0em 15%;
+	display: block;
+	width: 80%;
+	background-color: #FFFFFF;
+	float: right;
+}
+.Section
+{
+	display: block;
+	border-radius: 20px;
+	border-style: ridge;
+	border-color: #86b3fc;
+	margin: 5em 0em 1em 0em;
+	background-color: #3e85f7;
+}
+.Section img
+{
+	padding: 0.5em 1em 1em 1em;
+}
+.Section iframe
+{
+	padding: 0.5em 1em 1em 1em;
+}
+.Section h2
+{
+	color: #FFFFFF;
+	padding: 0.5em 0.5em 0em 0.5em;
+	
+}
+.SectionLowP
+{
+	font-size: 1.3em;
+    padding: 1em;
+	background-color: #FFFFFF;
+	border-radius: 0px 0px 20px 20px;
+}
+.SectionMidP
+{
+	border-radius: 0px 0px 0px 0px;
+	padding: 1em;
+	font-size: 1.3em;
+	background-color: #FFFFFF;
+}
+.MobileScreenshot
+{
+	border-radius: 0px 0px 20px 20px;
+	display: inline-block;
+	width: 100%;
+	background-color: #3e85f7;
+}
+.MobileScreenshot img
+{
+	background-color: #3e85f7;
+	float: left;
+	display: block;
+	width: 40%;
+}
+.MobileScreenshot p
+{
+	border-radius: 20px 20px 20px 20px;
+	font-size: 1.5em;
+	float: left;
+	display: block;
+	width: 60%;
+}
+.MobileScreenshot h2
+{
+	display: block;
+	
+}
+
+
+.FaqMain
+{
+	padding: 2em 20% 7% 20%;
+	background-color: #FFFFFF;
+}
+.FaqItem
+{
+	padding: 1em 0em 0em 1em;
+}
+.FaqMain h1
+{
+	background-color: #3e85f7;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 1em;
+}
+.FaqSection
+{
+	padding: 1em 0em 1em 0em;
+}
+.FaqItem .SectionShell
+{
+	padding: 0em 10% 0em 10%;
+}
+.FaqSectionShell
+{
+	padding: 1em 0em;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.FaqSection .FaqSectionContent
+{
+	overflow:hidden; height: 0; transition: height 2s ease-in-out;
+}
+.FaqSection .FaqSectionContent:target
+{
+	height: fit-content;
+}
+.FaqSection h1 a
+{
+	color: #FFFFFF;
+}
+
+
+
+.ResourcesShell
+{
+	padding: 2% 5% 0em 5%;
+	display: inline-block;
+}
+.ResourcesComp
+{
+	background-color: #3e85f7;
+	width: 25%;
+	float: left;
+	padding: 5% 0.3em 0em 0.3em
+}
+.ResourcesComp h1
+{
+	color: #FFFFFF;
+	text-align: center;
+	height: 100px;
+}
+sup
+{
+	font-size: 0.4em;
+	padding: 0px 3px 0px 3px;
+}
+sup a
+{
+	color: #FFFFFF;
+}
+.ResourcesComp ul li
+{
+	display: inline-block;
+	width: 100%;
+	list-style-type: disc;
+	color: #FFFFFF;
+	padding: 1em 0em 0em 0em;
+}
+.ResourcesBody
+{
+	background-color: #FFFFFF;
+}
+.TableHeader
+{
+	padding: 1em 0em 1em 0em;
+}
+.TableHeader h1
+{
+	background-color:#3e85f7;
+	color: #FFFFFF;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.TableHeader h3
+{
+	background-color: #86b3fc;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+table
+{
+	
+	width: 50%;
+	float: left;
+	border: 1.5px solid #165ccc;
+	border-collapse: collapse;
+}
+td, th
+{
+	padding: 0.5em;
+	border: 1.5px solid #165ccc;
+	text-align: center;
+}
+tr
+{
+	background-color: #FFFFFF;
+}
+tr:nth-of-type(odd)
+{
+	background-color: #86b3fc;
+}
+.TableDiv
+{
+	padding: 1em 1em 1em 1em;
+}
+#CitationSection
+{
+	padding: 5% 5% 5% 5%;
+}
+
+.ResourcesFooter
+{
+	display: inline-block;
+	margin: 1em 0em 0em 0em;
+}
+.special
+{
+	color: #FF0000;
+}
+
+
+
+#HomeFoot
+{
+	padding: 1em 0em 1em 0em;
+}
+.HomeDiv
+{
+	display: block;
+}
+#TopBit
+{
+	height: 300px;
+	background-image: url(OtherImages/GoblinBlk.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 2em;
+	border-color: #3e85f7;
+	border-style: solid;
+	border-width: 0em 0em 0.5em 0em;
+}
+#TopBit h1
+{
+	color: #3e85f7;
+	padding: 0.5em 0em 0em 0em;
+	display: block;
+	text-shadow: 2px 2px 2px #000000;
+}
+#TopBit h2
+{
+	font-size: 1em;
+	color: #FFFFFF;
+	background-color: #165ccc;
+	border-radius: 2em;
+	padding: 0.2em 0em 0.2em 0em;
+	display: block;
+}
+.HomeMain
+{
+	display: block;
+	width: 100%;
+	margin: 0em 0em 10% 0em;
+}
+#MidBit
+{
+	background-color: #3e85f7;
+	display: inline-block;
+	padding: 1% 5% 5% 5%;
+	margin: 0em 0em 0em 0em;
+}
+.HomeComp
+{
+	background-color: #3e85f7;
+	width: 25%;
+	float: left;
+	padding: 0em 0.3em 0em 0.3em
+}
+.HomeComp h1
+{
+	color: #FFFFFF;
+	text-align: center;
+}
+#HomeFoot
+{
+	padding: 1em 0em 1em 0em;
+}
+.HomeComp ul li
+{
+	display: inline-block;
+	width: 100%;
+	list-style-type: disc;
+	color: #FFFFFF;
+	padding: 1em 0em 0em 0em;
+}
+.HomeBody
+{
+	background-color: #FFFFFF;
+}
+#BottomBit
+{
+	padding: 3em 5% 0em 5%;
+}
+#About
+{
+	padding: 1em 1em 1em 1em;
+	border-radius: 1em;
+	border-style:solid;
+	border-width:0.25em;
+	border-color:#3e85f7;
+}
+#About h2
+{
+	color:#165ccc;
+	padding: 0em 0em 1em 0em;
+}
+#About p 
+{
+	font-size: 1.3em;
+}
+#HomeForm
+{
+	margin: 1em 0em 0em 0em;
+	padding: 1em 1em 1em 1em;
+	border-radius: 1em;
+	border-style:solid;
+	border-width:0.25em;
+	border-color:#3e85f7;
+}
+form
+{
+	padding: 1em 1em 1em 1em;
+}
+label
+{
+	float: left;
+	display: block;
+	text-align: left;
+	width: 125px;
+	padding-right: 2em;
+}
+input, textarea
+{
+	display: block;
+	margin-bottom: 20px;
+}
+input
+{
+	padding: 0.5em;
+}
+input[type="submit"]
+{
+	margin: 0em 0em 0em 30%;
+	width: 40%;
+	text-align: center;
+}
+#message
+{
+	height: 200px;
+	padding: 1em;
+}
+#ContactH3
+{
+	color: #165ccc;
+	padding: 1em 0em 0em 1em;
+}
+.HomeP 
+{
+	color: #165ccc;
+	padding: 3em 0em 0em 0em;
+}
