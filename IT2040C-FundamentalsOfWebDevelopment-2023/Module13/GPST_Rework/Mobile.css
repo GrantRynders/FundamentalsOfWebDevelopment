@@ -1,0 +1,340 @@
+@charset "utf-8";
+*
+{
+	padding: 0em;
+	margin: 0em;
+}
+.desktop
+{
+	display: none;
+}
+body
+{
+
+	color: #666666;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: darkgreen;
+	
+}
+header
+{
+	background-color: #FFFFFF;
+	width: 100%;
+	display: inline-block;
+}
+header img
+{
+	display: block;
+  	margin: 0em auto 0em auto;
+  	width: 50%;
+}
+nav
+{
+    display: block;
+	margin: auto;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	padding: 0em 1em 2em 1em;
+}
+ul
+{
+	list-style-type: none;
+}
+ul li
+{
+	padding: 1em 0em 1em 0em;
+    width: 25%;
+	float: left;
+}
+ul li:hover
+{
+	background-color: #c7ffcc;
+}
+header nav ul li a
+{
+	color: darkgreen;
+	text-decoration: none;
+}
+.HomeMain
+{
+	display: inline-block;
+	padding: 1em 1em 1em 1em;
+	background-image: url(LabImages/GPST/training.png);
+	background-repeat:no-repeat;
+}
+.Barn
+{
+	font-weight: bold;
+	color: darkgreen;
+}
+#inbetween
+{
+	padding: 1em 1em 1em 1em;
+	background-color:#FFFFFF;
+}
+#MainP
+{
+	display: block;
+	text-align:center;
+	border-style: solid;
+	border-width: 0.1em 0em 0.1em 0em;
+	border-color: darkgreen;
+	padding: 1em 0em 1em 0em;
+	font-size: 1.5em;
+	background-color: #FFFFFF
+}
+#MainImg
+{
+	background-color: #000000;
+	width: 100%;
+	opacity: 0.5;
+}
+
+.HomeSectionShell
+{
+	width: 100%;
+	float: none;
+	display: inline-block;
+}
+.HomeSectionShell h2
+{
+	text-align: center;
+	padding: 1em 0em 1em 0em;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.HomeSection
+{
+	margin: 1em 0em 1em 0em;
+	background-color: #FFFFFF;
+	display: inline-block;
+	padding: 2em 1em 1em 1em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.HomeSection p
+{
+	text-align:center;
+	padding: 1em 0em 0em 0em;
+	font-size: 2em;
+}
+.HomeSection img
+{
+	display: block;
+  	margin: 0em auto 0em auto;
+  	width: 80%;
+}
+
+#FloatRight
+{
+	z-index:-4;
+	float: right;
+}
+#FloatLeft1
+{
+	float: left;
+}
+#FloatLeft2
+{
+	float: left;
+}
+#Contact
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #FFFFFF;
+	padding: 1em 1em 1em 1em;
+}
+footer
+{
+	padding: 1em 0em 1em 0em;
+	color: #FFFFFF;
+	text-align: center;
+}
+footer a
+{
+	color: #FFFFFF;
+}
+
+
+
+.TrainingMain
+{
+	background-color: #FFFFFF;
+}
+.TrainingTrio
+{
+	display: inline-block;
+	width: 100%;
+	padding: 0em 1em 0em 1em;
+}
+.TrainingSingle
+{
+	float: left;
+	width: 30%;
+	padding: 0em 1% 0em 1%;
+}
+.TrainingH2
+{
+	padding: 1em 0em 1em 0em;
+	text-align: center;
+	color: darkgreen;
+	font-size: 2em;
+}
+.TrainingMainP
+{
+	text-align: center;
+	font-size: 1.5em;
+	padding: 0em 1em 0em 1em;
+}
+.TrainingH3
+{
+	padding: 1em 0em 1em 0em;
+}
+.TrainingImg
+{
+	border-style: solid;
+	border-width: 0.1em 0.1em 0.1em 0.1em;
+	border-color: darkgreen;
+	width: 100%;
+}
+iframe
+{
+	padding: 1em 0em 2em 0em;
+	display: block;
+  	margin: 0em auto 0em auto;
+  	width: 80%;
+}
+
+
+
+
+
+
+
+.BoardMain
+{
+	background-color: #FFFFFF;
+	padding: 5% 5% 5% 5%;
+}
+.BoardMain h2
+{
+	text-align: center;
+	color: darkgreen;
+	padding: 0em 0em 1em 0em;
+	font-size: 2em;
+}
+.BoardSingle
+{
+	padding: 0em 0em 1em 0em;
+}
+.TableDiv
+{
+	padding: 1em 0% 1em 10%;
+	width: 80%;
+}
+td, th
+{
+	padding: 0.5em;
+	border: 0.1em solid darkgreen;
+	text-align: center;
+}
+tr:nth-of-type(even)
+{
+	background-color: #c7ffcc;
+}
+#Rates
+{
+	border-style: solid;
+	border-width: 0.1em 0.1em 0.1em 0.1em;
+	border-color: darkgreen;
+	padding: 1em 1em 0em 1em
+}
+
+
+
+
+
+.ContactMain
+{
+	display: inline-block;
+	background-color: #FFFFFF;
+	padding: 0em 0em 2em 0em;
+}
+.ContactH2
+{
+	color: darkgreen;
+	font-size: 2em;
+	text-align: center;
+	padding: 1em 1em 1em 1em;
+}
+.ContactP
+{
+	padding: 0em 0em 0em 0em;
+}
+.FormDivShell
+{
+	padding: 0em 15% 2em 15%;
+}
+.FormDiv
+{
+	display: inline-block;
+	padding: 1em 1em 1em 1em;
+	min-width: 50%;
+	border-style: solid;
+	border-width: 0.1em 0.1em 0.1em 0.1em;
+	border-color: darkgreen;
+
+}
+label
+{
+	display: block;
+}
+input, textarea
+{
+	display: block;
+	margin-bottom: 1em;
+}
+#message
+{
+	box-sizing: border-box;
+	border: 0em 0em 0.1em 0em solid darkgreen;
+	resize: none;
+	padding: 1em 1em 1em 1em;
+	
+}
+input[type="submit"]
+{
+	display: block;
+  	margin: 0em auto 0em auto;
+	width: 50%;
+}
+.ContactImg
+{
+	float: left;
+	padding: 0em 1em 1em 1em;
+	display: block;
+	border-width: 0.1em 0.1em 0.1em 0.1em;
+	border-style: solid;
+	border-color: darkgreen;
+	float: left;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+.ContactImg a
+{
+	text-decoration: none;
+}
+.ContactImg a h2
+{
+	text-align: center;
+	color: darkgreen;
+	font-size: 2em;
+}
+.ContactImgGallery
+{
+	display: block;
+	padding: 1em 0em 1em 5%;
+}

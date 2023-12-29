@@ -1,0 +1,62 @@
+@charset "utf-8";
+body
+{
+background-color: #FFFFFF;
+color: #666666;
+font-family: Ariel, Helvetica, sans-serif;
+}
+header
+{
+background-color: #00B386;
+color: #FFFFFF;
+background-image: url("LabImages/GPST/pasture.png");
+background-position: right;
+background-repeat: no-repeat;
+line-height: 400%;
+text-indent: 1em;
+}
+nav
+{
+background-color: #70DBDB;
+font-weight: bold;
+}
+nav a
+{
+text-decoration: none;
+}
+h1, h2, h3
+{
+font-family: Georgia, "Times New Roman", sans-serif;
+}
+h1
+{
+margin-bottom: 0;
+}
+h2
+{
+color: #00664D;
+}
+ul
+{
+list-style-image: url("LabImages/GPST/marker.gif");
+}
+dt
+{
+color: #00664D;
+}
+.barn
+{
+color: #70DBDB;
+font-weight: bold;
+}
+#contact
+{
+font-size: 90%;
+}
+footer
+{
+font-size: 75%;
+font-style: italic;
+font-family: Georgia, "Times New Roman", sans-serif;
+text-align: center;
+}

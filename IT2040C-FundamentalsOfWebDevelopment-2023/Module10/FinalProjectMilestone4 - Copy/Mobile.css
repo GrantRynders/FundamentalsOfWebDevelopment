@@ -1,0 +1,196 @@
+@charset "utf-8";
+*
+{
+	font-family: "Varela Round", sans-serif;
+	box-sizing: border-box;
+	padding: 0px 0px;
+	margin: 0px 0px;
+	width: 100%;
+}
+header
+{
+	background-color: #165ccc;
+}
+header h3
+{
+	background-color: #165ccc;
+	color: #FFFFFF;
+	padding: 0.5em;
+	float: left;
+	display: block;
+	width: auto;
+}
+body
+{
+	padding: 0em 0.1em;
+	background-color: #165ccc;
+}
+#StickyTopBit
+{
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.desktopNav
+{
+	display: none;
+}
+.navContent 
+{
+	height: 0px;
+	overflow: hidden;
+	border-width: 2px 0px 3px 0px;
+	border-style: groove;
+	border-color: #165ccc;
+}
+#navIcon
+{
+	width: 20%;
+	float: right;
+	padding: 0.75em 3em 0.5em 3em;
+	color: #FFFFFF;
+	display: block;
+	text-decoration: none;
+}
+#navIcon:focus ~ .navContent
+{
+	background-color: #3e85f7;
+	height: auto;
+	transition: max-height 0.5s ease-in;
+}
+.NavContentChild
+{
+	border-width: 2px 0px 3px 0px;
+	border-style: groove;
+	border-color: #000000;
+}
+ul
+{
+	list-style-type: none;
+}
+ul li
+{
+    width: 100%
+}
+li a
+{
+	border-width: 1px 0px 1px 0px;
+	border-style: groove;
+	border-color: #165ccc;
+	color: #FFFFFF;
+	background-color: #3e85f7;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 16px;
+}
+li a:hover 
+{
+    background-color: #165ccc;
+    color: #FFFFFF;
+}
+footer
+{
+	padding: 1em;
+	background-color: #86b3fc;
+	text-align: center;
+	color: #FFFFFF;
+}
+footer a
+{
+	text-decoration: none;
+}
+#mobile
+{
+	display: inline;
+}
+#desktop
+{
+	display: none;
+}
+
+
+
+
+.Chapter
+{
+	color: #000000;
+	background-color: #a3c6ff;
+	text-align: center;
+	padding: 1em 0em 1em 0em;
+}
+.SectionShell {
+	
+	padding: 1em 5%;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.Section
+{
+	background-color: #3e85f7;
+	border-radius: 20px;
+	border-style: ridge;
+	border-color: #86b3fc;
+	margin: 1em 0em 1em 0em;
+}
+.Section h2 
+{
+	color: #FFFFFF;
+	padding: 0.5em;
+}
+.Section p 
+{
+	border-radius: 0px 0px 20px 20px;
+	padding: 0.5em;
+	background-color: #FFFFFF;
+}
+
+
+
+
+.FaqMain
+{
+	padding: 0em 5% 1em 5%;
+	background-color: #FFFFFF;
+}
+.FaqItem
+{
+	padding: 1em 0em 0em 1em;
+}
+.FaqMain h1
+{
+	background-color: #3e85f7;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 1em;
+}
+.FaqSection
+{
+	padding: 1em 0em 1em 0em;
+}
+.FaqItem .SectionShell
+{
+	padding: 0em 5% 0em 5%;
+}
+
+
+
+
+.Resource
+{
+	text-align: center;
+}
+
+
+
+
+.ImageBlock
+{
+	color: #FFFFFF;
+	width: 100%;
+	height: 500px;
+	background-image: url(goofyah.png);
+	background-repeat: no-repeat;
+}
+
+
